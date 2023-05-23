@@ -26,7 +26,7 @@ jobs:
           username: ubuntu
           server: ec2-54-206-144-196.ap-southeast-2.compute.amazonaws.com
           port: 22 # default is 22
-          ssh_private_key: "${{ secrets.SSH_PRIVATE_KEY }}"
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
  
           
           # will put all file under this path
